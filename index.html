@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <script>
+ 
+        function abc () {
+ 
+                  var a = document.getElementById("result");
+                   a.style.animationName="wap";
+                   a.style.animationDuration="1s";
+
+
+
+
+
+
+                   
+                   a.style.animationIterationCount="infinite";
+        }
+  </script>  
+    
+ <style>
+ 
+ body{
+         background-color:rosybrown;
+     }
+   
+ h1{
+     text-align: center;
+     font-size: 100px;
+     font-family: 'calibri';
+     
+}
+  @keyframes wap {
+
+ 0% {
+  color:red;
+    }
+25% {
+      color:blue;
+
+}
+50% {
+    color:grey;
+}
+75% {
+       color:pink;
+}
+
+100%{
+     color:green;
+}
+
+
+}
+
+ button{
+
+        margin-left: 50%;
+        margin-top:10%;
+        border:none;
+        font-size: 50px;
+        padding-top: 5px;
+        background-color:rosybrown;
+        margin-left:50%;
+        width:100px;
+        height:50px;
+
+} 
+
+
+
+     
+
+ </style>
+
+
+</head>
+<body>
+
+<h1 id="result">Mr.Cool</h1>
+
+<button onclick="abc()">Play</button>
+
+</body>
+</html>
